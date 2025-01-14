@@ -116,4 +116,4 @@ const convertToRoman = function (x){
 return cal_3(intArr)+cal_2(intArr)+cal_1(intArr)+cal_0(intArr);
 }
 
-console.log(convertToRoman(3987))
+document.getElementById("demo").innerHTML = convertToRoman(3987);
